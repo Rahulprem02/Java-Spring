@@ -11,24 +11,26 @@
 
   <bean class = "com.springcore.Student" name ="student1">
        <property name = "studentId">
-          <value>123</value>
+          <value>1</value>
        </property>
         <property name = "studentName">
           <value>Rahul</value>
        </property>
        <property name = "studentAddress">
-          <value>Karachi</value>
+          <value>Pakistan</value>
        </property>
   </bean>
 
   <bean class = "com.springcore.Student" name ="student2">
-       <property name = "studentId"  value = "12" />
-       <property name = "studentName"  value = "Rahul Kumar" /> 
+       <property name = "studentId"  value = "2" />
+       <property name = "studentName"  value = "Rahul" /> 
        <property name = "studentAddress" value = " Germany" />
          
   </bean>
 
-  <bean class = "com.springcore.Student" name ="student3" p:studentId="1234" p:studentName = "Kumar" p:studentAddress = "Kantio"  />
+  <bean class = "com.springcore.Student" name ="student3" p:studentId="3" p:studentName = "Kumar" p:studentAddress = "Pak"  />
+
+
 
 
 </beans>
